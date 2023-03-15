@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map
     spec:
       containers:
-      - image: quay.io/scoheb/user-workload:dH0Kf-dc-metro-map
+      - image: quay.io/scoheb/user-workload@sha256:35224e1c3655cc70e3b0a92a308452efcaa73e2a4164fb666f7fe4fde3b9bdf2
         imagePullPolicy: Always
         name: container-image
         resources:
